@@ -1,4 +1,4 @@
-# Student Assignment based on Angular Quickstart
+# Angular Student Progress Assignment
 1. Fork this repository.
 2. Clone your fork of this repository to your machine.
 3. Change to the assignment-angular-student-progress directory and run the following command:
