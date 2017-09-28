@@ -25,5 +25,5 @@ Assignment
     </style>
 ```
 
-![Results Image](Screen Shot 2017-02-11 at 1.18.10 PM.png?raw=true)
+![Results Image](./student-progress.png?raw=true)
 
