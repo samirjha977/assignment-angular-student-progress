@@ -5,8 +5,8 @@
 ```
 ng new student-progress --directory ./ --skip-git
 ```
-3. Complete the student progress assignment based on the information and screenshot below.
-4. Commit and push your changes to your fork of the repository on GitHub.
+4. Complete the student progress assignment based on the information and screenshot below.
+5. Commit and push your changes to your fork of the repository on GitHub.
 
 Assignment
 * Add the ability to add an assignment
