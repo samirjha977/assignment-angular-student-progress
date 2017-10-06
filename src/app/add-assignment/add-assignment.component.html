@@ -1,0 +1,18 @@
+<br>
+<div>
+    <div class="input">
+        <label> Assignment Name: </label>
+        <input type="text" [(ngModel)]="assignmentName">
+    </div>
+    <div class="input">
+        <label> Scored Points: </label>
+        <input type="number" [(ngModel)]="scoredPoints">
+    </div>
+    <div class="input">
+        <label> Points Possible: </label>
+        <input type="number" [(ngModel)]="pointPossible">
+    </div>
+</div>
+<br>
+<button (click)="addAssignment()"> Add Assignment </button>
+<br>

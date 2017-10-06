@@ -1,0 +1,9 @@
+.input {
+    padding: 8px;
+    padding-right: 8px;
+    display: inline;
+}
+
+input {
+    padding-left: 10px;
+}

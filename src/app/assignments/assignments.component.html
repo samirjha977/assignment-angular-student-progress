@@ -1,0 +1,16 @@
+<div *ngIf="tableData.length">
+    <h3> Assignments </h3>
+    <table>
+        <tr>
+            <th> Assignment Name </th>
+            <th> Points Scored </th>
+            <th> Points Possible </th>
+            <th> Percent </th>
+        </tr>
+        <tr *ngFor="let row of tableData">
+            <td> {{row.assginName}} </td>
+            <td> {{row.scored}} </td>
+            <td> {{row.total}} </td>
+            <td> {{row.percent}}% </td>
+        </tr>
+    </table>

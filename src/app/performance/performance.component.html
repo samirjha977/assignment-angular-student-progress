@@ -1,0 +1,16 @@
+<div *ngIf="performanceTableData.length">
+    <h3> Performance </h3>
+    <table>
+        <tr>
+            <th> Points </th>
+            <th> Points Possible </th>
+            <th> Percent </th>
+            <th> Grade </th>
+        </tr>
+        <tr *ngFor="let row of performanceTableData">
+            <td> {{row.scored}} </td>
+            <td> {{row.total}} </td>
+            <td> {{row.percent}}% </td>
+            <td [style.backgroundColor]='row.color' [style.color]="white"> {{row.grade}} </td>
+        </tr>
+    </table>
